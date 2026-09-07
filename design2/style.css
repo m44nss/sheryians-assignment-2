@@ -68,6 +68,17 @@ hr {
   margin-top: 0px;
   width: 125px;
 }
+.centerimg {
+  position: relative;
+}
+.centerimg img {
+  position: absolute;
+
+  width: 550px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -85%);
+}
 
 .cards {
   background-color: rgb(218, 238, 42);
